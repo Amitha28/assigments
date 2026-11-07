@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS students (
     course VARCHAR(50)
 );
 
---  Insert a few sample records (safe to run again).
+--  Insert a few sample records 
 INSERT INTO students (student_id, student_name, email, age, city)
 VALUES (1, 'Alice', 'alice@example.com', 23, 'Buffalo'),
        (2, 'Bob', 'bob@example.com', 25, 'New York'),
